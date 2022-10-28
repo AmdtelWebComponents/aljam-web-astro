@@ -4,3 +4,10 @@
 /* optional imports that use the props */
 @import "open-props/normalize";
 @import "open-props/buttons";
+
+body {
+  margin: auto;
+  background-color: var(--grey-9);
+  height: 100vh;
+  width: 98vw;
+}

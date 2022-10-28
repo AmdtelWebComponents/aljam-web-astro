@@ -18,7 +18,16 @@ const { title, description } = Astro.props;
   </head>
   <body>
     <Header />
-    <slot />
-    <Footer />
+    <main>
+      <slot />
+    </main>
+    <Footer class="footer" />
   </body>
 </html>
+
+<style>
+  main {
+    margin: auto;
+    height: 80vh;
+  }
+</style>
